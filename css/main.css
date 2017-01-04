@@ -1,0 +1,85 @@
+body{
+    overflow-x: hidden;
+}
+
+.full_row_img{
+    background-image: url(../assets/IMG_9857.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.nav-item{
+    padding-right: 20px;
+}
+
+.bg-title, .info-text{
+    color: white;
+}
+
+.btns{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.s-info{
+    color: darkorange;
+}
+
+.t-info{
+    color: darkgray;
+}
+
+.btn{
+    background-color: darkorange;
+    opacity: .8;
+    color: white;
+}
+.btn:first-child{
+    background-color: orangered;
+    opacity: 1;
+    color: white;
+}
+
+.btn:hover{
+    background-color: orange;
+    color: white;
+}
+
+.line{
+    border-left: thin solid darkgray;
+    padding-left: 30px;
+}
+
+.col-3{
+    background-color: #e87b78;
+    color: white;
+    font-weight: 100;
+    height: 400px;
+    padding-top: 80px;
+}
+
+address a{
+    color: white;
+    text-decoration: none;
+}
+
+address a:hover{
+    color: #dd2823;
+    text-decoration: none;
+}
+
+.col-md-offset-xs{
+    padding-left: 120px;
+    
+}
+
+.list-group{
+    list-style: none;
+    font-family: sans-serif;
+    cursor: pointer;
+}
